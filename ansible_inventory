@@ -1,0 +1,5 @@
+[aws_serevers]
+13.51.237.226 ansible_ssh_private_key_file=~/.ssh/ansible-key.pem ansible_ssh_user=ec2-user apache_package=httpd
+13.53.79.33 ansible_ssh_private_key_file=~/.ssh/ansible-key.pem ansible_ssh_user=ubuntu apache_package=apache2
+[local_servers]
+172.16.1.95 ansible_ssh_user=huz9010

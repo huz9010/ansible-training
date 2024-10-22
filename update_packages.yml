@@ -1,0 +1,10 @@
+---
+- hosts: local_servers
+  become: true
+  tasks:
+
+  - name: update_packages
+    apt:
+     update_cache: true
+     name: "*"
+     state: latest
